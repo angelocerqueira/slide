@@ -4,4 +4,6 @@ const slide = new Slide('.slide', '.slideWrapper');
 slide.init();
 console.log(slide);
 
-slide.changeSlide(5);
+slide.changeSlide(1);
+// slide.activeNextSlide();
+slide.activePrevSlide()
